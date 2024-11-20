@@ -1,0 +1,308 @@
+
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.btn-buy-now, .btn-add-to-cart {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-buy-now:hover, .btn-add-to-cart:hover {
+    background-color: #000000;
+}
+
+.cart-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Ratings Section */
+.ratings-heading {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviews-section {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-ratings-message {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.review-item:last-child {
+    border-bottom: none;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #f5c518;
+}
+
+.rating-score {
+    font-size: 1em;
+    color: #666;
+    margin-left: 10px;
+}
+
+.review-text {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+/* Rating Form */
+.rating-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.star-rating-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star-rating-input input[type="radio"] {
+    display: none;
+}
+
+.star-rating-input label.star {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star-rating-input input[type="radio"]:checked ~ label.star {
+    color: #f5c518;
+}
+
+.star-rating-input label.star:hover,
+.star-rating-input label.star:hover ~ label.star {
+    color: #f5c518;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    color: #333;
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btn-submit:hover {
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews-section {
+    margin: 20px 0;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.star {
+    font-size: 20px;
+    color: #ddd;
+    margin-right: 5px;
+}
+
+.star.filled {
+    color: #f39c12;
+}
+
+.rating-form .form-group {
+    margin-bottom: 15px;
+}
+
+.star-rating-input {
+    display: flex;
+    align-items: center;
+}
+
+.star-rating-input input[type="radio"] {
+    display: none;
+}
+
+.star-rating-input label {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.star-rating-input input[type="radio"]:checked ~ label {
+    color: #f39c12;
+}
+
+.star-rating-input input[type="radio"]:checked ~ label ~ label {
+    color: #ddd;
+}
+
+.star-rating-input label:hover,
+.star-rating-input label:hover ~ label {
+    color: #f39c12;
+}
+
+.btn-primary {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #357ae8;
+}
+
+
+
+
+
+/* Add this to your singleproduct.css */
+.out-of-stock-message {
+    color: #ff0000; /* Red color to indicate out of stock */
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
